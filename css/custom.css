@@ -1,0 +1,94 @@
+
+.anime__video__player1 {
+	margin-bottom: 70px;
+}
+
+.anime__video__player1 .plyr--video {
+	border-radius: 5px;
+	background: transparent;
+}
+
+.anime__video__player1 .plyr audio,
+.anime__video__player1 .plyr iframe,
+.anime__video__player1 .plyr video {
+	width: 102%;
+}
+
+.anime__video__player1 .plyr--full-ui.plyr--video .plyr__control--overlaid {
+	display: block;
+}
+
+.anime__video__player1 .plyr--video .plyr__control.plyr__tab-focus,
+.anime__video__player1 .plyr--video .plyr__control:hover,
+.anime__video__player1 .plyr--video .plyr__control[aria-expanded=true] {
+	background: transparent;
+}
+
+.anime__video__player1 .plyr--video .plyr__controls {
+	background: transparent;
+}
+
+.anime__video__player1 .plyr--video .plyr__progress__buffer {
+	color: transparent;
+}
+
+.anime__video__player1 .plyr--full-ui input[type=range] {
+	color: #ffffff;
+}
+
+.anime__video__player1 .plyr__controls .plyr__controls__item.plyr__progress__container {
+	position: absolute;
+	left: 26px;
+	bottom: 45px;
+	width: calc(100% - 60px);
+}
+
+.anime__video__player1 .plyr__menu {
+	margin-right: 70px;
+}
+
+.anime__video__player1 .plyr__controls .plyr__controls__item:first-child {
+	position: absolute;
+	left: 32px;
+	bottom: 8px;
+}
+
+.anime__video__player1 .plyr__controls .plyr__controls__item:last-child {
+	position: absolute;
+	right: 32px;
+	bottom: 8px;
+}
+
+.anime__video__player1 .plyr__volume {
+	position: absolute;
+	width: auto;
+	left: 76px;
+	bottom: 8px;
+}
+
+.anime__video__player1 .plyr__controls .plyr__controls__item.plyr__time {
+	position: absolute;
+	left: 106px;
+	bottom: 12px;
+}
+
+.anime__video__player1 .plyr__control--overlaid {
+	background: transparent;
+	background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, transparent)));
+}
+
+.anime__video__player1 .plyr__control--overlaid svg {
+	height: 60px;
+	width: 50px;
+}
+
+
+.anime__video__player1 .plyr__volume {
+    left: 65px;
+}
+.anime__video__player1 .plyr__controls .plyr__controls__item.plyr__time {
+    left: 95px;
+}
+.anime__video__player1 .plyr__menu {
+    margin-right: 60px;
+}
